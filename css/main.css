@@ -124,6 +124,7 @@ CUSTOM STYLES
  div#top-bar{
 	/* Top Bar Decoration: */
 	height: 1vh;
+	width: 100vh;
 	background-color: #1CA8DF;
 }
 
@@ -171,6 +172,7 @@ div#navigation{
 
 .container-intro {
 	height: 100%;
+	padding: 0px;
 }
 
 .intro-text {
@@ -222,4 +224,16 @@ div#navigation{
 	height: 40vh;
 	width: 100vw;
 	background-color: #FAFAFA;
+}
+
+#description p {
+	padding-top: 70px;
+	line-height: 30px;
+	line-height: 3rem;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+#description #desc-text {
+	padding: 0px;
 }
