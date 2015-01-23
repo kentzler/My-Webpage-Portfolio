@@ -103,7 +103,14 @@ body {
 	font-size: 1.8rem; 
 }
 
+a {
+	color: #1CA8DF;
+}
 
+a:hover{
+	color: #1CA8DF;
+
+}
 
 /* ====================================
 CUSTOM STYLES 
@@ -124,7 +131,7 @@ CUSTOM STYLES
  div#top-bar{
 	/* Top Bar Decoration: */
 	height: 1vh;
-	width: 100vh;
+	width: 100vw;
 	background-color: #1CA8DF;
 }
 
@@ -224,10 +231,6 @@ div#navigation{
 	height: 40vh;
 	width: 100vw;
 	background-color: #FAFAFA;
-}
-
-#description p {
-	padding-top: 70px;
 	line-height: 30px;
 	line-height: 3rem;
 	font-size: 18px;
@@ -235,5 +238,15 @@ div#navigation{
 }
 
 #description #desc-text {
-	padding: 0px;
+	padding-top: 70px;
+	padding-left: 0px;
 }
+
+
+
+#description #link-process{
+	padding-top: 40px;
+	padding-bottom: 65px;
+	padding-left: 0px;
+}
+
