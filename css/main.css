@@ -281,7 +281,6 @@ div#navigation{
 	border-width: 0 0 2px 0;
 	border-bottom:1px solid linear-gradient(to left, rgba(255,255,255,0), rgba(152,158,165,1),rgba(255,255,255,0));
 	*/
-	border-bottom:1px solid rgba(152,158,165,1);
 }
 
 
@@ -292,8 +291,12 @@ div#navigation{
 	background-position: 10vw 200px;
 	/* REMOVE THIS HEIGHT */
 	height: 785px;
+
 }
 
+#my-motto p{
+	border-bottom:1px solid rgba(152,158,165,1);
+}
 #principles {
 	padding-top: 80px;
 
