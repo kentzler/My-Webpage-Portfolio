@@ -113,6 +113,9 @@ a:hover{
 
 }
 
+p {
+	text-rendering: optimizelegibility;
+}
 /* ====================================
 CUSTOM STYLES 
 ======================================*/
@@ -247,7 +250,7 @@ div#navigation{
 
 
 #description .container{
-	width: 100%;
+	width: 100vw;
 	background-color: #F5F5F5;
 	line-height: 30px;
 	line-height: 3rem;
