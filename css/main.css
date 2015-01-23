@@ -185,6 +185,11 @@ div#navigation{
 	padding: 0px;
 }
 
+.container-intro .container{
+	margin-left: 0px;
+}
+
+
 .intro-text {
 	clear: both;
 	height:100%;
@@ -250,7 +255,7 @@ div#navigation{
 
 
 #description .container{
-	width: 100vw;
+	width: 100%;
 	background-color: #F5F5F5;
 	line-height: 30px;
 	line-height: 3rem;
