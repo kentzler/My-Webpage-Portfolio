@@ -91,6 +91,7 @@ GENERAL STYLES
 
 * {
 	font-family: "CooperHewitt-Book";
+	color: #083040;
 }
 
 html { 
@@ -100,7 +101,7 @@ html {
 
 body { 
 	font-size: 18px;
-	font-size: 1.8rem; 
+	font-size: 1.8rem;
 }
 
 a {
@@ -122,7 +123,6 @@ CUSTOM STYLES
 	width: 100vw;
 	background-color: #fff;
 	background: url(../resources/me.jpg);
-	background-position: right top;
 	background-size: 290px 446px;
 	background-repeat: no-repeat;
 	background-position: 68vw 60px;
@@ -199,27 +199,46 @@ div#navigation{
 	line-height: 3.6rem;
 }
 
-.intro-text p#social-media-icons {
-	font-size: 2.4rem;
-	font-size: 24px;
-	color: #CCCCCC;
-}
+
 
 .intro-text p#social-media-icons a{
 	padding-right: 15px;
 	color: #CCCCCC;
 }
 
+#social-media-icons {
+	font-size: 2.4rem;
+	font-size: 24px;
+	color: #CCCCCC;
+}
+
+#fb {
+	color: #CCCCCC;
+}
+
+
 #fb:hover{
 	color: #425D9C;
+}
+
+#twitter {
+	color: #CCCCCC;
 }
 
 #twitter:hover{
 	color: #55ACEE;
 }
 
+#instagram {
+	color: #CCCCCC;
+}
+
 #instagram:hover{
 	color: #99634D;
+}
+
+#dribbble {
+	color: #CCCCCC;
 }
 
 #dribbble:hover{
@@ -227,10 +246,9 @@ div#navigation{
 }
 
 
-#description {
-	height: 40vh;
-	width: 100vw;
-	background-color: #FAFAFA;
+#description .container{
+	width: 100%;
+	background-color: #F5F5F5;
 	line-height: 30px;
 	line-height: 3rem;
 	font-size: 18px;
@@ -249,4 +267,47 @@ div#navigation{
 	padding-bottom: 65px;
 	padding-left: 0px;
 }
+
+
+.title{
+	text-transform: uppercase;
+	font-family: "CooperHewitt-Medium";
+	font-size: 24px;
+	font-size: 2.4rem;
+	padding-top: 60px;
+	text-align: center;
+	color: #083040;
+	/*
+	border-width: 0 0 2px 0;
+	border-bottom:1px solid linear-gradient(to left, rgba(255,255,255,0), rgba(152,158,165,1),rgba(255,255,255,0));
+	*/
+	border-bottom:1px solid rgba(152,158,165,1);
+}
+
+
+#motto{
+	background: url(../resources/iphone6.png);
+	background-size: 214px 435px;
+	background-repeat: no-repeat;
+	background-position: 10vw 200px;
+	/* REMOVE THIS HEIGHT */
+	height: 785px;
+}
+
+#principles {
+	padding-top: 80px;
+
+}
+
+#principles ol {
+	list-style-type: decimal;
+}
+
+#principles ol li{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-family: "CooperHewitt-Medium";
+}
+
 
