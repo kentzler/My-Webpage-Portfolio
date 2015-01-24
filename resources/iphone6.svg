@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="214px" height="435px" viewBox="0 0 214 435" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="PORTFOLIO-DESKTOP" sketch:type="MSArtboardGroup" transform="translate(-139.000000, -893.000000)">
+            <g id="MY-MOTTO" sketch:type="MSLayerGroup" transform="translate(139.000000, 755.000000)">
+                <g id="iPhone-6" transform="translate(0.000000, 138.000000)" sketch:type="MSShapeGroup">
+                    <path d="M72.9769585,31.4932127 C75.1555564,31.4932127 76.921659,29.7307137 76.921659,27.5565611 C76.921659,25.3824085 75.1555564,23.6199095 72.9769585,23.6199095 C70.7983606,23.6199095 69.0322581,25.3824085 69.0322581,27.5565611 C69.0322581,29.7307137 70.7983606,31.4932127 72.9769585,31.4932127 Z" id="Camera" fill="#929292"></path>
+                    <rect id="Speaker" fill="#929292" x="89.7419355" y="25.5882353" width="34.516129" height="3.93665158" rx="32"></rect>
+                    <rect id="Screen" stroke="#BDBDBD" stroke-width="2" x="13.8064516" y="52.1606335" width="185.400922" height="330.678733"></rect>
+                    <ellipse id="Home-/-Touch-ID" stroke="#BDBDBD" stroke-width="3" cx="106.506912" cy="406.459276" rx="15.7788018" ry="15.7466063"></ellipse>
+                    <rect id="Vibrate" fill="#BDBDBD" x="0" y="55.1131222" width="0.986175115" height="16.7307692"></rect>
+                    <rect id="Volume-Up" stroke="#BDBDBD" stroke-width="2" transform="translate(0.493088, 108.750000) scale(-1, 1) translate(-0.493088, -108.750000) " x="0" y="92.5113122" width="0.986175115" height="32.4773756"></rect>
+                    <rect id="Volume-Down" stroke="#BDBDBD" stroke-width="2" transform="translate(0.493088, 148.116516) scale(-1, 1) translate(-0.493088, -148.116516) " x="0" y="131.877828" width="0.986175115" height="32.4773756"></rect>
+                    <rect id="On/Off" stroke="#BDBDBD" stroke-width="2" transform="translate(213.013825, 108.750000) scale(-1, 1) translate(-213.013825, -108.750000) " x="212.02765" y="92.5113122" width="1.97235023" height="32.4773756"></rect>
+                    <rect id="Outline" stroke="#8A8B8A" stroke-width="2" opacity="0.571070429" x="0.986175115" y="0" width="211.041475" height="435" rx="32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
