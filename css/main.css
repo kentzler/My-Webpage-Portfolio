@@ -186,18 +186,16 @@ div#navigation{
 }
 
 .container-intro .container{
-	margin-left: 0px;
 }
 
 
-.intro-text {
+#intro-text {
 	clear: both;
 	height:100%;
 	display: block;
-		
 }
 
-.intro-text p#hello {
+#intro-text p#hello {
 	padding-top: 150px;
 	font-family: CooperHewitt-Medium;
 	font-size: 24px;
@@ -209,7 +207,7 @@ div#navigation{
 
 
 
-.intro-text p#social-media-icons a{
+#intro-text p#social-media-icons a{
 	padding-right: 15px;
 	color: #CCCCCC;
 }
@@ -254,8 +252,8 @@ div#navigation{
 }
 
 
-#description .container{
-	width: 100%;
+#desc-background{
+	width: 100vw;
 	background-color: #F5F5F5;
 	line-height: 30px;
 	line-height: 3rem;
@@ -265,7 +263,7 @@ div#navigation{
 
 #description #desc-text {
 	padding-top: 70px;
-	padding-left: 0px;
+
 }
 
 
@@ -273,15 +271,14 @@ div#navigation{
 #description #link-process{
 	padding-top: 40px;
 	padding-bottom: 65px;
-	padding-left: 0px;
 }
 
 
 .title{
 	text-transform: uppercase;
 	font-family: "CooperHewitt-Medium";
-	font-size: 24px;
-	font-size: 2.4rem;
+	font-size: 22px;
+	font-size: 2.2rem;
 	padding-top: 60px;
 	text-align: center;
 	color: #083040;
@@ -296,14 +293,26 @@ div#navigation{
 	background: url(../resources/iphone6.png);
 	background-size: 214px 435px;
 	background-repeat: no-repeat;
-	background-position: 10vw 200px;
+	background-position: 20vw 200px;
 	/* REMOVE THIS HEIGHT */
-	height: 785px;
 
 }
 
+#motto-title {
+	background: rgba(255,255,255,0);
+	background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(82,96,112,0.97) 31%, rgba(82,96,112,1) 32%, rgba(82,96,112,1) 72%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(31%, rgba(82,96,112,0.97)), color-stop(32%, rgba(82,96,112,1)), color-stop(72%, rgba(82,96,112,1)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(82,96,112,0.97) 31%, rgba(82,96,112,1) 32%, rgba(82,96,112,1) 72%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(82,96,112,0.97) 31%, rgba(82,96,112,1) 32%, rgba(82,96,112,1) 72%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(82,96,112,0.97) 31%, rgba(82,96,112,1) 32%, rgba(82,96,112,1) 72%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(82,96,112,0.97) 31%, rgba(82,96,112,1) 32%, rgba(82,96,112,1) 72%, rgba(255,255,255,0) 100%);
+	background-size: 140px 2px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
 #my-motto p{
-	border-bottom:1px solid rgba(152,158,165,1);
+	
 }
 #principles {
 	padding-top: 80px;
@@ -312,13 +321,38 @@ div#navigation{
 
 #principles ol {
 	list-style-type: decimal;
+	counter-reset: principles-counter;
+	padding-bottom: 100px;
 }
+
+#principles ol li::before{
+    display: list-item;
+    left: -50px;
+    position: absolute;
+    color: #FF6347;
+    content: counter(principles-counter,decimal-leading-zero);
+    counter-increment: principles-counter;
+}
+
 
 #principles ol li{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-family: "CooperHewitt-Medium";
+	display: list-item;
+	list-style-type: none;
+    position: relative;
+}
+
+#principles p {
+	font-family: "CooperHewitt-Book";
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 30px;
+	line-height: 3.0rem;
 }
 
 
