@@ -321,7 +321,7 @@ div#navigation{
 	background: url(../resources/iphone6.png);
 	background-size: 214px 435px;
 	background-repeat: no-repeat;
-	background-position: 20vw 200px;
+	background-position: 15vw 200px;
 
 
 }
@@ -430,4 +430,11 @@ div#navigation{
 	background-size: 240px 158px;
 	background-repeat: no-repeat;
 	background-position: 5vw 105px;
+}
+
+#rhodia {
+	background: url(../resources/rhodia-pad.png);
+	background-size: 115px 155px;
+	background-repeat: no-repeat;
+	background-position: 9vw 70px;
 }
