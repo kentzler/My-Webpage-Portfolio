@@ -369,14 +369,6 @@ div#navigation{
 
 /* Tools */
 
-#sketch {
-	background: url(../resources/sketch-icon.png);
-	background-size: 142px 121px;
-	background-repeat: no-repeat;
-	background-position: 8vw 105px;
-}
-
-
 #tools-title {
 	background-size: 160px 2px;
 }
@@ -423,7 +415,12 @@ div#navigation{
 	line-height: 3.0rem;
 }
 
-/* Wacom */
+#sketch {
+	background: url(../resources/sketch-icon.png);
+	background-size: 142px 121px;
+	background-repeat: no-repeat;
+	background-position: 8vw 105px;
+}
 
 #wacom {
 	background: url(../resources/intuos-pro.png);
@@ -452,5 +449,30 @@ div#navigation{
 	background-repeat: no-repeat;
 	background-position: 5vw 125px;
 	padding-bottom: 105px;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#sketch {
+	background-position: 8vw 60%;
+	}
+
+	#wacom {
+		background-position: 7vw 80%;
+	}
+
+	#rhodia {
+		background-position: 9vw 60%;
+	}
+
+	#microns {
+		background-position: 5vw 60%;
+	}
+
+	#copic {
+		background-position: 5vw 60%;
+		padding-bottom: 105px;
+	}
+
 }
 
