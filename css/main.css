@@ -272,7 +272,7 @@ div#navigation{
 }
 
 
-#desc-background{
+.gray-background{
 	width: 100vw;
 	background-color: #F5F5F5;
 	line-height: 30px;
@@ -295,30 +295,13 @@ div#navigation{
 
 
 .title{
+	padding-top: 60px;
 	text-transform: uppercase;
 	font-family: "CooperHewitt-Medium";
 	font-size: 22px;
 	font-size: 2.2rem;
-	padding-top: 60px;
 	text-align: center;
 	color: #083040;
-	/*
-	border-width: 0 0 2px 0;
-	border-bottom:1px solid linear-gradient(to left, rgba(255,255,255,0), rgba(152,158,165,1),rgba(255,255,255,0));
-	*/
-}
-
-
-#motto{
-	background: url(../resources/iphone6.png);
-	background-size: 214px 435px;
-	background-repeat: no-repeat;
-	background-position: 20vw 200px;
-	/* REMOVE THIS HEIGHT */
-
-}
-
-#motto-title {
 	background: white;
 	background: -moz-linear-gradient(left, white 0%, rgba(82,96,112,0.97) 31%, rgba(82,96,112,1) 32%, rgba(82,96,112,1) 72%, rgba(255,255,255,0) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(31%, rgba(82,96,112,0.97)), color-stop(32%, rgba(82,96,112,1)), color-stop(72%, rgba(82,96,112,1)), color-stop(100%, rgba(255,255,255,0)));
@@ -329,11 +312,20 @@ div#navigation{
 	background-size: 140px 2px;
 	background-position: bottom;
 	background-repeat: no-repeat;
+
 }
 
-#my-motto p{
-	
+/* Motto/Principles */
+
+#motto{
+	background: url(../resources/iphone6.png);
+	background-size: 214px 435px;
+	background-repeat: no-repeat;
+	background-position: 20vw 200px;
+
+
 }
+
 #principles {
 	padding-top: 80px;
 
@@ -375,4 +367,67 @@ div#navigation{
 	line-height: 3.0rem;
 }
 
+/* Tools */
 
+#sketch {
+	background: url(../resources/sketch-icon.png);
+	background-size: 142px 121px;
+	background-repeat: no-repeat;
+	background-position: 8vw 105px;
+}
+
+
+#tools-title {
+	background-size: 160px 2px;
+}
+
+.tool {
+	padding-left: 15px
+}
+
+.tool-row {
+	padding-top: 60px;
+}
+
+.tool-def {
+	padding: 0px;
+	padding-left: 0px;
+}
+
+.tool-def p{
+	text-transform: uppercase;
+	text-align: right;
+	font-family: "CooperHewitt-Medium";
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 20px;
+	color: #FF6347;
+}
+
+.tool h3 {
+	text-transform: uppercase;
+	font-family: "CooperHewitt-Medium";
+	font-size: 18px;
+	line-height: 24px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	margin-top: 0px;
+}
+
+.tool p {
+	padding-left: 40px;
+}
+
+.tool-desc {
+	line-height: 30px;
+	line-height: 3.0rem;
+}
+
+/* Wacom */
+
+#wacom {
+	background: url(../resources/intuos-pro.png);
+	background-size: 240px 158px;
+	background-repeat: no-repeat;
+	background-position: 5vw 105px;
+}
