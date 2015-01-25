@@ -429,12 +429,28 @@ div#navigation{
 	background: url(../resources/intuos-pro.png);
 	background-size: 240px 158px;
 	background-repeat: no-repeat;
-	background-position: 5vw 105px;
+	background-position: 5vw 85px;
 }
 
 #rhodia {
 	background: url(../resources/rhodia-pad.png);
 	background-size: 115px 155px;
 	background-repeat: no-repeat;
-	background-position: 9vw 70px;
+	background-position: 9vw 80px;
 }
+
+#microns {
+	background: url(../resources/pigma-micron.png);
+	background-size: 282px 23px;
+	background-repeat: no-repeat;
+	background-position: 5vw 150px;
+}
+
+#copic {
+	background: url(../resources/copic-marker.png);
+	background-size: 274px 37px;
+	background-repeat: no-repeat;
+	background-position: 5vw 125px;
+	padding-bottom: 105px;
+}
+
