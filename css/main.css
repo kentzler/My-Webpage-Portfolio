@@ -508,7 +508,7 @@ Contact
 ======================================*/
 
 #contact{
-	height: 500px;
+	height: 400px;
 	width: 100vw;
 	background: url(../resources/clo-env.png);
 	background-size: 173px 118px;
@@ -563,6 +563,7 @@ Contact
     outline: 0 none;
     color: #083040;
     width:100%;
+    resize: none;
 }
 
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
