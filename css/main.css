@@ -196,7 +196,7 @@ div#navigation{
 	display: block;
 }
 
-#intro-text p#hello {
+#hello {
 	padding-top: 150px;
 	font-family: CooperHewitt-Medium;
 	font-size: 24px;
@@ -322,7 +322,7 @@ div#navigation{
 	background: url(../resources/iphone6.png);
 	background-size: 214px 435px;
 	background-repeat: no-repeat;
-	background-position: 15vw 200px;
+	background-position: 15vw 140px;
 }
 
 #principles {
@@ -333,7 +333,7 @@ div#navigation{
 #principles ol {
 	list-style-type: decimal;
 	counter-reset: principles-counter;
-	padding-bottom: 100px;
+	padding-bottom: 80px;
 }
 
 #principles ol li::before{
@@ -360,10 +360,10 @@ div#navigation{
 	font-family: "CooperHewitt-Book";
 	padding-top: 10px;
 	padding-bottom: 40px;
-	font-size: 18px;
-	font-size: 1.8rem;
-	line-height: 30px;
-	line-height: 3.0rem;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 22px;
+	line-height: 2.2rem;
 }
 
 /* Tools */
@@ -401,9 +401,10 @@ div#navigation{
 	font-size: 14px;
 	font-size: 1.4rem;
 	line-height: 24px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-left: 40px;
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .tool p {
@@ -513,7 +514,7 @@ Contact
 	background: url(../resources/clo-env.png);
 	background-size: 173px 118px;
 	background-repeat: no-repeat;
-	background-position: 68vw 210px;
+	background-position: 60vw 210px;
 }
 
 #form {
@@ -571,4 +572,40 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
     box-shadow:  0 0 8px #1CA8DF;
     outline: 0 none;
 }
+
+
+/* ====================================
+/Contact
+======================================*/
+
+
+/* ====================================
+Process
+======================================*/
+
+#process {
+	height: 400px;
+	width: 100vw;
+	background-color: #fff;
+	background: url(../resources/paperboard.png);
+	background-size: 169px 241px;
+	background-repeat: no-repeat;
+	background-position: 60vw 110px;;
+
+}
+
+
+#general-process {
+	padding-top: 140px;
+	font-family: CooperHewitt-Medium;
+	font-size: 24px;
+	font-size: 2.4rem;
+	color: #083040;
+	line-height: 36px;
+	line-height: 3.6rem; 
+} 
+
+/* ====================================
+/Process
+======================================*/
 
