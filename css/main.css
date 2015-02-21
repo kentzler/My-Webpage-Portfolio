@@ -651,6 +651,7 @@ Footer
 #learn-more p {
 	text-align: center;
 	padding-top: 70px;
+	font-size: 14px;
 }
 
 #contactForm{
@@ -676,6 +677,13 @@ Footer
 	padding-bottom: 4px;
 	background-color: #FF6347;
 	border: 1px solid #E06057;
+	font-family: "CooperHewitt-Medium";
+}
+
+#footer input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: #CCCCCC;
+    box-shadow:  none;
+    outline: 0 none;
 }
 
 
@@ -683,6 +691,7 @@ Footer
 /* NAVIGATION */
 #footer .navigation-bar a{
 	color:white;
+	font-size: 12px;
 }
 
 #footer .navigation-bar li a:hover{
@@ -753,7 +762,6 @@ Footer
  	-webkit-transition:color .2s ease-out, background 2s ease-in;
  	transition:color .2s ease-out, background .2s ease-in;
 }
-
 
 
 #dribbble-footer:hover{
