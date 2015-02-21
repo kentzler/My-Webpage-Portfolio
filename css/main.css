@@ -1,7 +1,11 @@
 /* ====================================
 GENERAL STYLES 
 ====================================== */
-
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
 @font-face {
     font-family: "CooperHewitt-Thin";
     src: url("../fonts/CooperHewitt-Thin.woff") format('woff');
@@ -142,7 +146,7 @@ Home
 	background-color: #1CA8DF;
 }
 
-div#navigation{
+div.navigation{
 	float:right;
     position:relative;
     left:-50%;
@@ -150,20 +154,20 @@ div#navigation{
 }
 
 
-#navigation ul {
+.navigation ul {
 	list-style:none;
     position:relative;
     left:50%;
 }
 
-#navigation li {
+.navigation li {
 	float:left;
 	position:relative;
 	padding-right: 50px;
 	padding-top: 30px;
 }
 
-#navigation li a{
+.navigation li a{
 	color: #526070;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
@@ -174,7 +178,7 @@ div#navigation{
 	line-height: 1.8rem;
 }
 
-#navigation li a:hover{
+.navigation li a:hover{
 	border-bottom: 2px solid #1CA8DF;
 	padding-bottom: 1px;
 }
@@ -208,12 +212,12 @@ div#navigation{
 
 
 
-#intro-text p#social-media-icons a{
+#intro-text p.social-media-icons a{
 	padding-right: 15px;
 	color: #CCCCCC;
 }
 
-#social-media-icons {
+.social-media-icons {
 	font-size: 2.4rem;
 	font-size: 24px;
 	color: #CCCCCC;
@@ -525,7 +529,7 @@ Contact
 	background-repeat: no-repeat;
 	background-position: 8vw 510px;
 }
-.btn {
+#form .btn {
 	width: 100%;
 	background-color: #FF6347; 
     padding-top:15px;
@@ -536,7 +540,7 @@ Contact
 	font-size: 1.4rem;
 }
 
-.btn:hover {
+#form .btn:hover {
 	background-color: #CF503A; 
 	color: white;
 }
@@ -567,7 +571,7 @@ Contact
     resize: none;
 }
 
-textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+#area textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
     border-color: #1CA8DF;
     box-shadow:  0 0 8px #1CA8DF;
     outline: 0 none;
@@ -608,4 +612,151 @@ Process
 /* ====================================
 /Process
 ======================================*/
+
+/* ====================================
+Footer
+======================================*/
+
+#footer{
+	height: 400px;
+}
+.blue-background{
+	width: 100vw;
+	background-color: #1CA8DF;
+	line-height: 30px;
+	line-height: 3rem;
+	font-size: 14px;
+	font-size: 1.4rem;
+	height: 400px
+}
+
+#footer p {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "CooperHewitt-Medium";
+	line-height: 2.4rem;
+	line-height: 24px;
+}
+
+#footer .container-fluid{
+	padding: 0px;
+}
+
+#learn-more{
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+#learn-more p {
+	text-align: center;
+	padding-top: 70px;
+}
+
+#contactForm{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 420px;
+
+}
+
+#footer .input{
+	width: 300px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	font-style: normal;
+
+}
+
+#footer .btn{
+	width: 120px;
+	font-size: 14px;	
+	padding-top: 8px;
+	padding-bottom: 4px;
+	background-color: #FF6347;
+	border: 1px solid #E06057;
+}
+
+
+
+/* NAVIGATION */
+#footer .navigation-bar a{
+	color:white;
+}
+
+#footer .navigation-bar li a:hover{
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 1px;
+
+}
+
+
+
+
+#footer .social-media-icons{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 30px;	
+}
+
+#footer .social-media-icons a{
+	padding-right: 15px;
+}
+
+#fb-footer{
+	color: #ffffff;
+	-o-transition:color .2s ease-out, background 2s ease-in;
+  	-ms-transition:color .2s ease-out, background 2s ease-in;
+ 	-moz-transition:color .2s ease-out, background 2s ease-in;
+ 	-webkit-transition:color .2s ease-out, background 2s ease-in;
+ 	transition:color .2s ease-out, background .2s ease-in;
+}
+
+#fb-footer:hover{
+	color: #425D9C;
+}
+
+#instagram-footer{
+	color: #ffffff;
+	-o-transition:color .2s ease-out, background 2s ease-in;
+  	-ms-transition:color .2s ease-out, background 2s ease-in;
+ 	-moz-transition:color .2s ease-out, background 2s ease-in;
+ 	-webkit-transition:color .2s ease-out, background 2s ease-in;
+ 	transition:color .2s ease-out, background .2s ease-in;
+}
+
+#instagram-footer:hover{
+	color: #99634D;
+}
+
+#twitter-footer{
+	color: #ffffff;
+	-o-transition:color .2s ease-out, background 2s ease-in;
+  	-ms-transition:color .2s ease-out, background 2s ease-in;
+ 	-moz-transition:color .2s ease-out, background 2s ease-in;
+ 	-webkit-transition:color .2s ease-out, background 2s ease-in;
+ 	transition:color .2s ease-out, background .2s ease-in;
+}
+
+#twitter-footer:hover{
+	color: #55ACEE;
+}
+
+
+#dribbble-footer{
+	color: #ffffff;
+	-o-transition:color .2s ease-out, background 2s ease-in;
+  	-ms-transition:color .2s ease-out, background 2s ease-in;
+ 	-moz-transition:color .2s ease-out, background 2s ease-in;
+ 	-webkit-transition:color .2s ease-out, background 2s ease-in;
+ 	transition:color .2s ease-out, background .2s ease-in;
+}
+
+
+
+#dribbble-footer:hover{
+	color: #E04D87;
+}
 
