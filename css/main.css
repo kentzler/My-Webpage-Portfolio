@@ -587,7 +587,7 @@ Contact
 Process
 ======================================*/
 
-#process {
+#process-intro {
 	height: 400px;
 	width: 100vw;
 	background-color: #fff;
@@ -608,6 +608,48 @@ Process
 	line-height: 36px;
 	line-height: 3.6rem; 
 } 
+
+#process-part{
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#process-part ol {
+	list-style-type: decimal;
+	counter-reset: principles-counter;
+	padding-bottom: 50px;
+}
+
+#process-part ol li::before{
+    display: list-item;
+    left: -40px;
+    position: absolute;
+    color: #FF6347;
+    content: counter(principles-counter,decimal-leading-zero);
+    counter-increment: principles-counter;
+}
+
+
+#process-part ol li{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: "CooperHewitt-Medium";
+	display: list-item;
+	list-style-type: none;
+    position: relative;
+}
+
+#process-part p {
+	font-family: "CooperHewitt-Book";
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 22px;
+	line-height: 2.2rem;
+}
 
 /* ====================================
 /Process
@@ -658,12 +700,12 @@ Footer
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 420px;
+	width: 400px;
 
 }
 
 #footer .input{
-	width: 300px;
+	width: 290px;
 	padding-top: 8px;
 	padding-bottom: 4px;
 	font-style: normal;
@@ -671,7 +713,7 @@ Footer
 }
 
 #footer .btn{
-	width: 120px;
+	width: 110px;
 	font-size: 14px;	
 	padding-top: 8px;
 	padding-bottom: 4px;
